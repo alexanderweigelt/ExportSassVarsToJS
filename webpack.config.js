@@ -15,7 +15,9 @@ const config = {
         new MiniCssExtractPlugin(),
         new HtmlWebpackPlugin({
             // Load a custom template (lodash by default)
-            template: 'index.html'
+            template: 'index.html',
+            // Adds the given favicon path to the output HTML
+            favicon: 'src/assets/favicon.ico'
         })
 
         // Add your plugins here
@@ -61,7 +63,7 @@ const config = {
                 exclude: ['/node_modules/'],
             },
             {
-                test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
+                test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif|ico)$/i,
                 type: 'asset',
             },
 
