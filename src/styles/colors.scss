@@ -1,0 +1,9 @@
+@import "variables";
+
+// export colors for JS usage
+:export {
+  colorGreen: $green;
+  colorOrange: $orange;
+  colorBlue: $blue;
+  colorGray: $gray;
+}
