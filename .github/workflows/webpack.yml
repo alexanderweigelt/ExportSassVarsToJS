@@ -1,9 +1,7 @@
-name: NodeJS with Webpack
+name: Build static files for gh-pages
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
     branches: [ "main" ]
 
 permissions:
